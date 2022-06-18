@@ -1254,13 +1254,13 @@ Game_Action.prototype.setEnemyAction = function(action) {
     }
 };
 
-Game_Action.prototype.setAttack = function() {
+/*Game_Action.prototype.setAttack = function() {
     this.setSkill(this.subject().attackSkillId());
-};
+};*/
 
-Game_Action.prototype.setGuard = function() {
+/*Game_Action.prototype.setGuard = function() {
     this.setSkill(this.subject().guardSkillId());
-};
+};*/
 
 Game_Action.prototype.setSkill = function(skillId) {
     this._item.setObject($dataSkills[skillId]);

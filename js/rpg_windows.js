@@ -5340,7 +5340,7 @@ Window_PartyCommand.prototype.numVisibleRows = function() {
 
 Window_PartyCommand.prototype.makeCommandList = function() {
     this.addCommand(TextManager.fight,  'fight');
-    this.addCommand(TextManager.escape, 'escape', BattleManager.canEscape());
+    //this.addCommand(TextManager.escape, 'escape', BattleManager.canEscape());
 };
 
 Window_PartyCommand.prototype.setup = function() {
@@ -5382,10 +5382,12 @@ Window_ActorCommand.prototype.numVisibleRows = function() {
 
 Window_ActorCommand.prototype.makeCommandList = function() {
     if (this._actor) {
-        this.addAttackCommand();
-        this.addSkillCommands();
-        this.addGuardCommand();
         this.addItemCommand();
+        this.addSkillCommands();
+        //this.addAttackCommand();
+        
+        //this.addGuardCommand();
+        
     }
 };
 
