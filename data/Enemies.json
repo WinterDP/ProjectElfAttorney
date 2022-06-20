@@ -1,4 +1,4 @@
 [
 null,
-{"id":1,"actions":[],"battlerHue":0,"battlerName":"Fanatic","dropItems":[{"dataId":1,"denominator":1,"kind":0},{"dataId":1,"denominator":1,"kind":0},{"dataId":1,"denominator":1,"kind":0}],"exp":0,"traits":[{"code":22,"dataId":0,"value":0.95},{"code":31,"dataId":1,"value":0}],"gold":0,"name":"Attorney","note":"","params":[90,0,30,20,30,30,1,1]}
+{"id":1,"actions":[],"battlerHue":0,"battlerName":"SF_Boss","dropItems":[{"dataId":1,"denominator":1,"kind":0},{"dataId":1,"denominator":1,"kind":0},{"dataId":1,"denominator":1,"kind":0}],"exp":0,"traits":[{"code":22,"dataId":0,"value":0.95},{"code":31,"dataId":1,"value":0}],"gold":0,"name":"Attorney","note":"","params":[90,0,30,20,30,30,1,1]}
 ]
